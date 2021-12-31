@@ -22,6 +22,59 @@
 
   <link rel="stylesheet" href="assets/css/theme.css">
 
+  <!-- Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=DotGothic16&family=Rampart+One&family=Reggae+One&family=RocknRoll+One&family=Yusei+Magic&display=swap" rel="stylesheet">
+
+
+  <!--form-->
+  <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+
+<script>
+  /* paste this in verbatim */
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments);};
+
+  /* customize formbutton here*/     
+  formbutton("create", {
+    action: "https://formspree.io/f/xjvlkrrk",
+    title: "聯絡我",
+    fields: [
+      { 
+        type: "email", 
+        label: "Email:", 
+        name: "_replyto",
+        required: true,
+      },
+      {
+        type: "text",
+        label: "如何稱呼您？",
+        name: "name",
+      },
+      {
+        type: "textarea",
+        label: "訊息內容：",
+        name: "message",
+      },
+      { type: "submit" }
+    ],
+    styles: {
+      modal: {
+        background: "#EEE"
+      },
+      formStatus: {
+        background: "#EEE"
+      },
+      input: {
+        border: "1px solid #CCC",
+        padding: "5px",
+        lineHeight: "1.25"
+      },
+      submitInput: {padding: "0.75em 1em"}
+    },
+    initiallyVisible: false
+  });
+</script>
 </head>
 
 <body>
@@ -69,8 +122,8 @@
       <div class="container h-100">
         <div class="row align-items-center h-100">
           <div class="col-lg-6 py-3 wow fadeInUp">
-            <h1 class="mb-4">記錄下<br>高中生涯的學習經歷</br></h1>
-            <p class="text-lg mb-5">學習成果、多元表現、自主學習等學習記錄</p>
+            <h1 class="mb-4" style="font-family: 'Dela Gothic One', serif;">記錄下<br>我的高中學習生涯</br></h1>
+            <p class="text-lg mb-5" style="font-family: 'Yusei Magic', serif;">學習成果、多元表現、自主學習等</p>
 
             <a href="about.html" class="btn btn-outline border text-secondary">關於我</a>
             <a href="#" class="btn btn-primary btn-split ml-2">聯絡我 <div class="fab"><span
@@ -306,34 +359,33 @@
             <div class="row align-items-center">
               <div class="col-md-6 py-3">
                 <div class="testi-image">
-                  <img src="./assets/img/person/person_1.jpg" alt="">
+                  <img src="assets/img/fanjin_poster.jpeg" alt="">
                 </div>
               </div>
               <div class="col-md-6 py-3">
                 <div class="testi-content">
-                  <p>Necessitatibus ipsum magni accusantium consequatur delectus a repudiandae nemo quisquam dolorum
-                    itaque, tenetur, esse optio eveniet beatae explicabo sapiente quo.</p>
+                  <p>對於<a href="learning-outcome/1091/10900334許恩齊_1091國文范進中舉劇本改編與演出.pdf" target="blank">范進中舉影片拍攝計畫</a>：<br><br>「恩齊這組的影片足有十分鐘，在兩週時間內要拍攝及剪輯出影片，能見到他們溝通協調、善用時間、小組合作等方面的能力。恩齊尤其在此項作業中扮演極為重要的角色，指導同學演出、運鏡、拍攝、後製，亦能接納同學意見，使小組在拍攝時氣氛和樂，彼此協調，各擔責任。影片亦首尾完整、內容深刻，後製用心，在同學互評中，是當之無愧的最佳影片！」</p>
                   <div class="entry-footer">
-                    <strong>Melvin Platje</strong> &mdash; <span class="text-grey">CEO Slurin Group</span>
+                    <strong>李宛臻</strong> &mdash; <span class="text-grey">內湖高中 119 導師</span>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
+  
           <div class="item">
             <div class="row align-items-center">
               <div class="col-md-6 py-3">
                 <div class="testi-image">
-                  <img src="./assets/img/person/person_2.jpg" alt="">
+                  <img src="assets/img/lj_poster.png" alt="">
                 </div>
               </div>
               <div class="col-md-6 py-3">
                 <div class="testi-content">
-                  <p>Repudiandae vero assumenda sequi labore ipsum eos ducimus provident a nam vitae et, dolorum
-                    temporibus inventore quaerat consectetur quos! Animi, qui ratione?</p>
+                  <p>學弟妹參加完<a href="#" target="blank">學習歷程大哉問</a>後⋯⋯<br><br>「謝謝學長撥空與我們分享學長自己一年來（或以上）的經驗和收穫，相信之後製作學習歷程檔案時能更順利（也多了點信心，不會那麼焦慮緊張的感覺），祝學長事事順利綠獎得名！此外學長能把眾多重點簡短有力地濃縮在兩節課，還包含互動及實際操作，覺得很佩服！！」<br><br>
+                  「謝謝學長付出時間與心力告訴我們許多關於學習歷程的秘訣，比 之前我上自主學習課的老師講得還清楚。」</p>
                   <div class="entry-footer">
-                    <strong>George Burke</strong> &mdash; <span class="text-grey">CEO Letro</span>
+                    <strong>高一的學弟妹們</strong> &mdash; <span class="text-grey">學習歷程大哉問之參加者</span>
                   </div>
                 </div>
               </div>
@@ -367,12 +419,30 @@
               </li>
             </ul>
           </div>
-          <div class="col-lg-6 py-3 wow fadeInUp">
+          <!--<div class="col-lg-6 py-3 wow fadeInUp">
             <div class="subhead">Contact Us</div>
             <h2 class="title-section">Drop Us a Line</h2>
-            <div class="divider"></div>
+            <div class="divider"></div>-->
+            <!-- modify this form HTML and place wherever you want your form -->
+            <!--<form
+              action="https://formspree.io/f/xjvlkrrk"
+              method="POST"
+            >
+              <label>
+                Your email:
+                <input type="email" name="_replyto">
+              </label>
+              <label>
+                Your message:
+                <textarea name="message"></textarea>
+              </label>-->
+              <!-- your other form fields go here -->
+              <!--<button type="submit">Send</button>
+            </form>-->
 
-            <form action="#">
+            
+
+            <!--<form action="#">
               <div class="py-2">
                 <input type="text" class="form-control" placeholder="Full name">
               </div>
@@ -383,7 +453,7 @@
                 <textarea rows="6" class="form-control" placeholder="Enter message"></textarea>
               </div>
               <button type="submit" class="btn btn-primary rounded-pill mt-4">Send Message</button>
-            </form>
+            </form>-->
           </div>
         </div>
       </div> <!-- .container -->
