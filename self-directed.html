@@ -20,6 +20,61 @@
 
   <link rel="stylesheet" href="./assets/css/theme.css">
 
+  <!-- Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=DotGothic16&family=Rampart+One&family=Reggae+One&family=RocknRoll+One&family=Yusei+Magic&display=swap" rel="stylesheet">
+
+
+  <!--form-->
+  <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+  
+  <script>
+  /* paste this in verbatim */
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments);};
+
+  /* customize formbutton here*/     
+  formbutton("create", {
+    action: "https://formspree.io/f/xjvlkrrk",
+    title: "聯絡我",
+    fields: [
+      { 
+        type: "email", 
+        label: "Email:", 
+        name: "_replyto",
+        required: true,
+      },
+      {
+        type: "text",
+        label: "如何稱呼您？",
+        name: "name",
+      },
+      {
+        type: "textarea",
+        label: "訊息內容：",
+        name: "message",
+      },
+      { type: "submit" }
+    ],
+    styles: {
+      modal: {
+        background: "#EEE"
+      },
+      formStatus: {
+        background: "#EEE"
+      },
+      input: {
+        border: "1px solid #CCC",
+        padding: "5px",
+        lineHeight: "1.25"
+      },
+      submitInput: {padding: "0.75em 1em"}
+    },
+    initiallyVisible: false
+  });
+</script>
+</head>
+
 </head>
 <body>
 
@@ -45,14 +100,13 @@
               <a href="about.html" class="nav-link">關於我</a>
             </li>
             <li class="nav-item">
-              <a href="services.html" class="nav-link">學習成果</a>
+              <a href="learning-outcome.html" class="nav-link">學習成果</a>
             </li>
             <li class="nav-item">
               <a href="multiple-performance.html" class="nav-link">多元表現</a>
-
             </li>
             <li class="nav-item active">
-              <a href="contact.html" class="nav-link">自主學習</a>
+              <a href="self-directed.html" class="nav-link">自主學習</a>
             </li>
           </ul>
 
@@ -83,48 +137,70 @@
   <main>
     <div class="page-section">
       <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 py-3">
-            <h2 class="title-section">Get in Touch</h2>
-            <div class="divider"></div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Laborum ratione autem quidem veritatis!</p>
-  
-            <ul class="contact-list">
-              <li>
-                <div class="icon"><span class="mai-map"></span></div>
-                <div class="content">123 Fake Street, New York, USA</div>
-              </li>
-              <li>
-                <div class="icon"><span class="mai-mail"></span></div>
-                <div class="content"><a href="#">info@digigram.com</a></div>
-              </li>
-              <li>
-                <div class="icon"><span class="mai-phone-portrait"></span></div>
-                <div class="content"><a href="#">+00 1122 3344 55</a></div>
-              </li>
-            </ul>
+        <div class="row">
+
+          <!-- .1092 -->
+          <div class="col-md-6 col-lg-4 py-3">
+            <div class="card-blog">
+              <div class="header">
+                <div class="entry-footer">
+                  <div class="post-author">自主學習</div>
+                  <a href="#" class="post-date">109學年度第二學期多元表現</a>
+                </div>
+              </div>
+              <div class="body">
+                <div class="post-title"><a href="https://sites.google.com/nhsh.tp.edu.tw/n7-aerialphotography/" target="blank">《農・田》空拍與剪輯</a></div>
+                <div class="post-excerpt">我這學期在自主學習中學習了各種基礎剪輯後製技巧、調色、字幕動畫和Ae操作。我發現這種沒有劇情的素材必須有相當足夠的剪輯基礎才能上手，要比較多時間調整時間、速度，可能還要想到整體畫面，未來我會多加學習。</div>
+              </div>
+              <div class="footer">
+                <a href="https://sites.google.com/nhsh.tp.edu.tw/n7-aerialphotography/" target="blank">看更多 <span class="mai-chevron-forward text-sm"></span></a>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-6 py-3">
-            <div class="subhead">Contact Us</div>
-            <h2 class="title-section">Drop Us a Line</h2>
-            <div class="divider"></div>
-            
-            <form action="#">
-              <div class="py-2">
-                <input type="text" class="form-control" placeholder="Full name">
+          
+
+          <!-- .1101 -->
+          <div class="col-md-6 col-lg-4 py-3">
+            <div class="card-blog">
+              <div class="header">
+                <div class="entry-footer">
+                  <div class="post-author">自主學習</div>
+                  <a href="#" class="post-date">110學年度第一學期多元表現</a>
+                </div>
               </div>
-              <div class="py-2">
-                <input type="text" class="form-control" placeholder="Email">
+              <div class="body">
+                <div class="post-title"><a href="https://sites.google.com/nhsh.tp.edu.tw/n7-technology-yter/" target="blank">資訊教學類油土伯養成計劃</a></div>
+                <div class="post-excerpt">在這十二週裡，我將會每兩週錄製、拍攝、剪輯一支關於資訊科技的教學影片上傳至YouTube。影片中主要為軟體操作教學，也會後製配音。每週都會有一個影片主題，也會有一個我所要加強的影片品質目標。另外也會依照時事調整影片主題。</div>
               </div>
-              <div class="py-2">
-                <textarea rows="6" class="form-control" placeholder="Enter message"></textarea>
+              <div class="footer">
+                <a href="https://sites.google.com/nhsh.tp.edu.tw/n7-technology-yter/" target="blank">看更多 <span class="mai-chevron-forward text-sm"></span></a>
               </div>
-              <button type="submit" class="btn btn-primary rounded-pill mt-4">Send Message</button>
-            </form>
+            </div>
           </div>
+
+
+          <!-- <div class="col-12 mt-5">
+            <nav aria-label="Page Navigation">
+              <ul class="pagination justify-content-center">
+                <li class="page-item disabled">
+                  <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item active" aria-current="page">
+                  <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#">Next</a>
+                </li>
+              </ul>
+            </nav>
+          </div> -->
+
         </div>
-      </div> <!-- .container -->
-    </div> <!-- .page-section -->
+  
+      </div>
+    </div>
   </main>
 
   <footer class="page-footer">
@@ -132,44 +208,39 @@
       <div class="row justify-content-center mb-5">
         <div class="col-lg-3 py-3">
           <h3>許恩齊的<br><span class="text-primary">學習記事本</span></h3></br>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-
-          
+          <p>學習成果、多元表現、自主學習等學習記錄</p>
 
           <p><a href="mailto:andygrace1214@gmail.com">andygrace1214@gmail.com</a></p>
           <p><a href="https://line.me/ti/p/BifaVElE17">LINE: n.7.1214</a></p>
         </div>
         <div class="col-lg-3 py-3">
-          <h5>Quick Links</h5>
+          <h5>網站目錄</h5>
           <ul class="footer-menu">
-            <li><a href="#">How it works</a></li>
-            <li><a href="#">Security</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Resources</a></li>
-            <li><a href="#">Report a Bug</a></li>
+            <li><a href="index.html">首頁</a></li>
+            <li><a href="about.html">關於我</a></li>
+            <li><a href="learning-outcome.html">學習成果</a></li>
+            <li><a href="multiple-performance.html">多元表現</a></li>
+            <li><a href="self-directed.html">自主學習</a></li>
           </ul>
         </div>
         <div class="col-lg-3 py-3">
-          <h5>About Us</h5>
+          <h5>好站連結</h5>
           <ul class="footer-menu">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Jobs</a></li>
-            <li><a href="#">Our Teams</a></li>
-            <li><a href="#">Testimonials</a></li>
-            <li><a href="#">News & Press</a></li>
+            <li><a href="https://n7n7.pse.is/learning-journey">我的學習記事本原址</a></li>
+            <li><a href="https://linktr.ee/N.7.1214">我的 Link Tree</a></li>
+            <li><a href="https://partner.canva.com/c/3158711/1210731/10068">Canva聯盟行銷網址<br>（可享免費使用一個月）</a></li>
+            <li><a href="https://partner.canva.com/n.7.edu">Canva教育版<br>（使用edu信箱註冊可永久使用）</a></li>
+            <li><a href="https://www.youtube.com/channel/UC4VkigXieelEmQD4Fx51puA">七號同學的資訊教室YouTube頻道</a></li>
           </ul>
         </div>
         <div class="col-lg-3 py-3">
-          <h5>Subscribe</h5>
-          <form action="#">
-            <input type="text" class="form-control" placeholder="Enter your mail..">
-          </form>
+          <h5>社群連結</h5>
 
           <div class="sosmed-button mt-4">
-            <a href="#"><span class="mai-logo-facebook-f"></span></a>
-            <a href="#"><span class="mai-logo-twitter"></span></a>
-            <a href="#"><span class="mai-logo-google"></span></a>
-            <a href="#"><span class="mai-logo-linkedin"></span></a>
+            <a href="learning-outcome.html"><span class="mai-home"></span></a>
+            <a href="https://www.facebook.com/N.7.1214/"><span class="mai-logo-facebook-f"></span></a>
+            <a href="https://www.instagram.com/n.7.1214/"><span class="mai-logo-instagram"></span></a>
+            <a href="mailto:andygrace1214@gmail.com"><span class="mai-mail"></span></a>
           </div>
         </div>
       </div>
@@ -178,14 +249,17 @@
         <div class="col-sm-6 py-2">
           <p id="copyright">&copy; 2020 <a href="https://macodeid.com/">MACode ID</a>. All rights reserved</p>
         </div>
-        <div class="col-sm-6 py-2 text-right">
+        <!--<div class="col-sm-6 py-2 text-right">
           <div class="d-inline-block px-3">
             <a href="#">Privacy</a>
           </div>
           <div class="d-inline-block px-3">
             <a href="#">Contact Us</a>
           </div>
-        </div>
+        </div>-->
+
+
+        
       </div>
     </div> <!-- .container -->
   </footer> <!-- .page-footer -->
